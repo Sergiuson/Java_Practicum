@@ -13,6 +13,7 @@ public class ConsoleApp {
             for (int i = 0; i < args.length; i += 1) {
                 String token = args[i];
 
+                
                 if (token.equals("--width")) {
                     width = Integer.parseInt(args[i + 1]);
                 } else if (token.equals("--height")) {
